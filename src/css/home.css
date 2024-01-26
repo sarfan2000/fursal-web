@@ -1,0 +1,23 @@
+.homecontainer {
+  position: relative;
+  width: 300px; /* Set the width of the container */
+  height: 200px; /* Set the height of the container */
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSE73QSePjnmGIOSbSoO579pCqyiv9dv4FkWAOTLmVjfsEJBfqsp-3bZsKL9CJ7UiFLH__tmimLuy_MliA"); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Set the text color */
+  text-align: center;
+}
